@@ -1,0 +1,24 @@
+## Capstone Options - Updated 7/12/16 ##
+
+
+
+
+### The Nature of Bottom-Quartile Loans ###
+
+• A variety of loan data with complementary information are available from fintech startups (e.g. Lending Club), the federal government's loan programs (e.g. Fannie Mae; DoEd student loan data), and mandatory bank filings (via the FDIC).  Plenty of analyses -- both for capstone-like toy projects and public discussion -- have addressed the issue of predicting which loans are likely to default, but when the question is framed that broadly, it ignores the fact that there's financial diversity present even among those typically viewed as the riskiest segment of borrowers (particularly those with low credit scores). Among subprime borrowers, are there features which are meaningfully predictive of which subprime loans will be paid off successfully or go into default? Are these similar to or different from the factors (aside those defining "subprime" borrowers) that identify successful loans in general? (i.e. -- are the characteristics of existing/improving financial stability or circumstances, which typically enable successful loans, different among this group of borrowers?)
+
+• There are two potential groups of clients and stakeholders for this analysis.  
+	The first is the lenders themselves, whether in the form of a fintech company (the most likely audience, I suspect) or a more traditional lending institution.  Lenders are bound both by their business structure (based on profiting from interest eventually paid by borrowers) and their fiduciary responsibilities (in the case of publicly-traded private institutions) to seek out loans that are unlikely to go into default.  This means that models of loan default based largely on credit scores or other traditional metrics may ignore a significant segment of loan prospects whose likelihood of repaying a loan successfully is obscured by bad surface metrics.  Examining the specific factors that contribute to successful repayment among clients with low credit scores may also help identify additional measures lenders can take before or during the loan process to support borrowers and increase the likelihood of full repayment.
+	The second group is subprime borrowers and organizations interested in expanding access to credit to underserved populations. Both groups might be able to use additional information about the characteristics of successful marginal borrowers to improve support structures for helping borrowers rebuild credit and create stronger financial foundations -- thus also ultimately increasing the loan market and expanding access to capital.
+
+
+### Mapping Banking Deserts ###
+
+• The Open Street Map project, the FDIC, and the US Census can be used in concert to identify areas of the US where many or few bank branches are present.  Several recent research projects have shown that lack of access to local bank branches can be a significant financial disadvantage, since basic services (like check-cashing, automatic deposit, or linked savings accounts) are unavailable or available only through predatory bank-replacement services such as "payday loan" locations and fee-based check cashing services.  Using a combination of datasets with spatial, financial, and demographic information, it should be possible to expand beyond basic identification of bank deserts and focus instead on mapping factors which contribute to the development of banking deserts and predict future changes.  Are there features (e.g. the presence of many commercial buildings) which make a banking desert's presence less likely, even when other features (e.g. a very low median income, low real estate values) might predict it? Are certain types of banks (large banking corporations, local credit unions) more likely to remain in or venture into areas with few branches? Is it possible to make a predictive model for the emergence (or disappearance) of banking deserts over a period of years?
+
+• The most likely clients for this project would be nonprofits working to amend the effects of banking deserts or nontraditional banks considering expanding into unusual market areas.  
+
+
+### Picky Predictions ###
+
+• Recommendations (particularly of movies, given the large amount of streaming-video data available online) and effective recommender systems are a standard topic for data projects and courses.  However, in the real world 
